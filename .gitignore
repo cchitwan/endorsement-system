@@ -1,0 +1,52 @@
+# Node / React Frontend
+frontend/node_modules/
+frontend/.vite/
+frontend/dist/
+frontend/build/
+frontend/.eslintcache
+frontend/*.log
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# Java / Maven Backend
+backend/target/
+backend/bin/
+backend/*.class
+backend/*.jar
+backend/*.war
+backend/*.ear
+backend/data/
+backend/endorsementdb*
+
+# IDEs and Editors
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Thumbs.db
+
+# Temporary / Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Local Application database file persists
+**/data/
+**/*.db
+**/*.mv.db
+**/*.trace.db
