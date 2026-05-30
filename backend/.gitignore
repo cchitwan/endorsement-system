@@ -1,0 +1,44 @@
+# Maven build output
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.next
+pom.xml.versionsBackup
+release.properties
+dependency-reduced-pom.xml
+build.log
+
+# Compiled class files & binaries
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+
+# Logs and runtime dumps
+*.log
+hs_err_pid*
+replay_pid*
+
+# Local Database Files (H2 In-Memory/File persists)
+data/
+db/
+endorsementdb*
+*.db
+*.mv.db
+*.trace.db
+
+# IDEs and Editors
+.settings/
+.classpath
+.project
+.metadata/
+.recommenders/
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+*.swo
+.DS_Store
